@@ -1,4 +1,5 @@
 ---
+layout: default
 title: KaTeX Tests
 nav_order: 2
 ---
