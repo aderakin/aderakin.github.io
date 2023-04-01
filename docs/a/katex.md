@@ -1,11 +1,14 @@
 ---
-title: MathJax Tests
+title: KaTeX Tests
+parent: KaTeX
+grand_parent: Math
 nav_order: 2
+math: katex
 ---
 
-# MathJax Tests
+# $$\KaTeX$$ Tests
 
-This page tests $$\mathrm{\LaTeX}$$ rendering using MathJax v3 with
+This page tests $$\LaTeX$$ rendering using $$\KaTeX$$ with
 [just-the-docs](https://github.com/pmarsceill/just-the-docs) as a remote theme.
 
 It was copied from a
@@ -36,20 +39,33 @@ Nested: $$M = \text{while $e^2$ do $c^2$ end}$$
 
 **Numbered equations**
 
+Automatic equation numbering is supported by KaTeX.
+
 $$
 \begin{equation}
 \int_0^x \sin(x) dx
-\label{eq:test}
 \end{equation}
 $$
 
-Link to equation $$\eqref{eq:test}$$
+`\label` and `\eqref` are not yet implemented.
+Using manual tags and HTML links:
+
+$$
+\begin{equation}
+\int_0^x \sin(x) dx
+\htmlId{eq:test}{\tag{1}}
+\end{equation}
+$$
+
+Link to equation $$\href{#eq:test}{(1)}$$
+
 
 **Blockquotes**
 
 > 1.  A block quote
 > 2.  With a list inside
 > 3.  With $$math$$
+
 **Math environment syntax testing**
 
 Inline Math should work with `$$`  $$\frac{x+y}{y}$$
