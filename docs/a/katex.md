@@ -1,9 +1,6 @@
 ---
 title: KaTeX Tests
-parent: KaTeX
-grand_parent: Math
 nav_order: 2
-math: katex
 ---
 
 # $$\KaTeX$$ Tests
