@@ -1,7 +1,6 @@
 ---
 title: MathJax Tests
 nav_order: 2
-math: mathjax
 ---
 
 # MathJax Tests

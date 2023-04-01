@@ -4,3 +4,9 @@ theme: just-the-docs
 url: https://aderakin.github.io
 
 math: mathjax
+
+compress_html:
+  blanklines: true
+
+enable_copy_code_button: true
+
