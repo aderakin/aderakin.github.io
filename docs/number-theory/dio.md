@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Diophantine Equations
-has_children: true
+# has_children: true
 parent: Number Theory
 # grand_parent: 
 ---
