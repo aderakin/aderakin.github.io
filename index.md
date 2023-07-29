@@ -8,4 +8,4 @@ My random notes in Vietnamese or English.
 
 # Navigation
 - Home
-- [Random](Random/00index.html)
+- [Random](docs/random/00index.html)
