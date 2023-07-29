@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Series
+title: Random
 has_children: true
 # grand_parent: 
 ---
