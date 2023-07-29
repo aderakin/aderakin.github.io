@@ -8,4 +8,4 @@ My random notes in Vietnamese or English.
 
 # Navigation
 - Home
-- [Random](random\00index.md)
+- [Random](https://aderakin.github.io/docs/Random/00index.html)
