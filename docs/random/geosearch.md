@@ -66,7 +66,9 @@ Kết quả là $x+y$ lớn nhất của mọi $I(x,y)$ có $x$ và $y$ là số
 
 Khi tìm được tọa độ điểm $I$ ta sẽ làm tròn chúng và kiểm tra các số nguyên gần nhất để xét.
 
-Code của mình:
+<details>
+  <summary> Code của mình: </summary>
+
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
@@ -150,3 +152,4 @@ int main() {
     while (t--) solve();
 }
 ```
+</details>
